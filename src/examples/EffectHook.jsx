@@ -14,17 +14,17 @@ export const EffectHook = () => {
   }, [counter]);
   return (
     <div>
-      <h2 className='text-xl'>useEffect Examples</h2>
-      <div className='flex justify-center items-center'>
+      <h2 className="text-xl">useEffect Examples</h2>
+      <div className="flex justify-center items-center">
         <button
           onClick={() => setCounter((count) => count - 1)}
-          className='px-2 py-1 mx-2 bg-blue-500 rounded-lg'>
+          className="px-2 py-1 mx-2 bg-blue-500 rounded-lg">
           -
         </button>
         <p>{counter}</p>
         <button
           onClick={() => setCounter((count) => count + 1)}
-          className='px-2 py-1 mx-2 bg-blue-500 rounded-lg'>
+          className="px-2 py-1 mx-2 bg-blue-500 rounded-lg">
           +
         </button>
       </div>
