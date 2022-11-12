@@ -1,5 +1,5 @@
 import "./App.css";
-import { MemoHook } from "./examples/MemoHook";
+import { CallbackHook } from "./examples/CallbackHook";
 
 function App() {
   return (
@@ -11,7 +11,8 @@ function App() {
       {/* <ContextHook /> */}
       {/* <ReducerHook /> */}
       {/* <RefHoof /> */}
-      <MemoHook />
+      {/* <MemoHook /> */}
+      <CallbackHook />
     </div>
   );
 }
