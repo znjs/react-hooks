@@ -8,8 +8,8 @@ export const CallbackList = ({ items }) => {
   }, [items]);
   return (
     <div>
-      {list.map((num) => (
-        <p>{num}</p>
+      {list.map((num, idx) => (
+        <p key={idx}>{num}</p>
       ))}
     </div>
   );
