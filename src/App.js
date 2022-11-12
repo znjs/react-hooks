@@ -1,5 +1,5 @@
 import "./App.css";
-import { RefHoof } from "./examples/RefHook";
+import { MemoHook } from "./examples/MemoHook";
 
 function App() {
   return (
@@ -10,7 +10,8 @@ function App() {
       {/* <EffectHook /> */}
       {/* <ContextHook /> */}
       {/* <ReducerHook /> */}
-      <RefHoof />
+      {/* <RefHoof /> */}
+      <MemoHook />
     </div>
   );
 }
