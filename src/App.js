@@ -1,5 +1,5 @@
 import "./App.css";
-import { CallbackHook } from "./examples/CallbackHook";
+import { TransitionHook } from "./examples/TransitionHook";
 
 function App() {
   return (
@@ -12,7 +12,8 @@ function App() {
       {/* <ReducerHook /> */}
       {/* <RefHoof /> */}
       {/* <MemoHook /> */}
-      <CallbackHook />
+      {/* <CallbackHook /> */}
+      <TransitionHook />
     </div>
   );
 }
