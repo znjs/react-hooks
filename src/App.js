@@ -1,5 +1,5 @@
 import "./App.css";
-import { TransitionHook } from "./examples/TransitionHook";
+import { Dummy } from "./examples/Dummy";
 
 function App() {
   return (
@@ -13,7 +13,9 @@ function App() {
       {/* <RefHoof /> */}
       {/* <MemoHook /> */}
       {/* <CallbackHook /> */}
-      <TransitionHook />
+      {/* <TransitionHook /> */}
+      {/* <DefferedHook /> */}
+      <Dummy />
     </div>
   );
 }
