@@ -1,4 +1,4 @@
-import React, { useDeferredValue, useMemo } from "react";
+import React, { useDeferredValue, useEffect, useMemo } from "react";
 
 export const DefferedHookList = ({ input }) => {
   const LIST_SIZE = 20000;
@@ -10,5 +10,8 @@ export const DefferedHookList = ({ input }) => {
     }
     return l;
   }, [defferedInput]);
+  useEffect(() => {
+    console.log(`input: ${input} \ndeferredInput: ${defferedInput}`);
+  }, [input, defferedInput]);
   return list;
 };
