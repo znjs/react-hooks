@@ -1,5 +1,5 @@
 import "./App.css";
-import { DebugValueHook } from "./examples/DebugValueHook";
+import { IdHook } from "./examples/IdHook";
 
 function App() {
   return (
@@ -17,7 +17,8 @@ function App() {
       {/* <DefferedHook /> */}
       {/* <Dummy /> */}
       {/* <LayoutHook /> */}
-      <DebugValueHook />
+      {/* <DebugValueHook /> */}
+      <IdHook />
     </div>
   );
 }
