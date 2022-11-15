@@ -1,5 +1,5 @@
 import "./App.css";
-import { LayoutHook } from "./examples/LayoutHook";
+import { DebugValueHook } from "./examples/DebugValueHook";
 
 function App() {
   return (
@@ -16,7 +16,8 @@ function App() {
       {/* <TransitionHook /> */}
       {/* <DefferedHook /> */}
       {/* <Dummy /> */}
-      <LayoutHook />
+      {/* <LayoutHook /> */}
+      <DebugValueHook />
     </div>
   );
 }
