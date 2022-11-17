@@ -15,3 +15,7 @@ Hooks can only be used in functional components based React and not in class bas
 - [`useState`](./src/examples/StateHook.jsx): Used for state management. Returns a stateful value and function to update the state
 - [`useEffect`](./src/examples/EffectHook.jsx): Used for performing side effects in React component. Accepts a callback function, and array of elements with its dependencies(optional)
 - [`useContext`](./src/examples/context/counter-context.js): Context API is used as a solution for prop drilling, sharing data among different Components by using `Provider` wrapper to the component being used
+
+## Other Hooks
+
+- [`useReducer`](./src//examples/ReducerHook.jsx): An alternative to useState. Accepts a reducer of type (state, action) => newState, and returns the current state paired with a dispatch method.
