@@ -19,3 +19,4 @@ Hooks can only be used in functional components based React and not in class bas
 ## Other Hooks
 
 - [`useReducer`](./src//examples/ReducerHook.jsx): An alternative to useState. Accepts a reducer of type (state, action) => newState, and returns the current state paired with a dispatch method.
+- [`useCallback`](./src//examples/CallbackHook.jsx): Pass an inline callback and an array of dependencies. useCallback will return a memoized version of the callback that only changes if one of the dependencies has changed.
